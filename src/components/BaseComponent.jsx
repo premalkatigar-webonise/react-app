@@ -2,7 +2,7 @@ import React from 'react';
 import {BrowserRouter, Route, Link} from 'react-router-dom';
 import UserComponent from './user/UserComponent';
 
-function baseComponent(){
+function BaseComponent(){
     return(
         <BrowserRouter>
             <Route path="/" component = {UserComponent} />
@@ -10,4 +10,4 @@ function baseComponent(){
     )
 }
 
-export default baseComponent;
+export default BaseComponent;
